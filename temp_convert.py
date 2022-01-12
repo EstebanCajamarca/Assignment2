@@ -14,4 +14,4 @@
 print("Please enter a Celsius temperature.")
 cel_temp = float(input())
 print("The equivalent Fahrenheit temperature is:",
-      '{0:.4g}'.format(float((9/5) * cel_temp + 32)))
+      '{0:.6g}'.format(float((9/5) * cel_temp + 32)))
